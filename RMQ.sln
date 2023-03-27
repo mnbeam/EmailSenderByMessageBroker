@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{7F080717-12B9-46D8-8CCD-CE0CB185FE79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailService", "EmailService", "{92874AE1-37AF-457D-A840-9496583DC43F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{7C37E41C-938C-4D86-A57D-A3B0D8C1F398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E2263835-F454-43A7-9482-DE7D2677BC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{41AAEF81-E674-4085-ACA5-22907439F62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{96670417-1EE8-494F-922E-AE28A79C1CFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C37E41C-938C-4D86-A57D-A3B0D8C1F398} = {7F080717-12B9-46D8-8CCD-CE0CB185FE79}
+		{41AAEF81-E674-4085-ACA5-22907439F62B} = {E2263835-F454-43A7-9482-DE7D2677BC08}
+		{96670417-1EE8-494F-922E-AE28A79C1CFD} = {92874AE1-37AF-457D-A840-9496583DC43F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C37E41C-938C-4D86-A57D-A3B0D8C1F398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C37E41C-938C-4D86-A57D-A3B0D8C1F398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C37E41C-938C-4D86-A57D-A3B0D8C1F398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C37E41C-938C-4D86-A57D-A3B0D8C1F398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AAEF81-E674-4085-ACA5-22907439F62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AAEF81-E674-4085-ACA5-22907439F62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AAEF81-E674-4085-ACA5-22907439F62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AAEF81-E674-4085-ACA5-22907439F62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96670417-1EE8-494F-922E-AE28A79C1CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96670417-1EE8-494F-922E-AE28A79C1CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96670417-1EE8-494F-922E-AE28A79C1CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96670417-1EE8-494F-922E-AE28A79C1CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
