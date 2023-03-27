@@ -1,0 +1,2 @@
+# EmailSenderMessageBroker
+Using MassTransit
